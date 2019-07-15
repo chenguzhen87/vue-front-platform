@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from '@icony/vue-container/vue'
+import Vuex from '@icony/vue-container/vuex'
 import getters from './getters'
 import app from './modules/app'
 import settings from './modules/settings'
