@@ -75,7 +75,11 @@ export default {
   watch: {
     $route: {
       handler: function(route) {
-        this.redirect = route.query && route.query.redirect
+         const  flag  = route.fullPath.indexOf("?redirect=")>0
+          if(flag){
+            const redirect = route.fullPath.split('?redirect=')[1]
+            this.redirect = decodeURIComponent(redirect)
+          }
       },
       immediate: true
     }
