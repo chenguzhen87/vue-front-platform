@@ -1,7 +1,7 @@
 {
-  "name": "beehub-vue-template",
+  "name": "vue-front-platform",
   "version": "4.2.1",
-  "description": "A beehub-vue-template with Element UI & axios & iconfont & permission control & lint",
+  "description": "A vue-front-platform with Element UI & axios & iconfont & permission control & lint",
   "author": "icony <546369005@qq.com>",
   "license": "MIT",
   "scripts": {
