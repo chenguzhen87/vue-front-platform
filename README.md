@@ -1,8 +1,15 @@
+<!--
+ * @Description: readme
+ * @Author: icony/精武陈真
+ * @Date: 2019-06-21 11:18:48
+ * @LastEditTime: 2019-09-11 11:48:18
+ * @LastEditors: icony/精武陈真
+ -->
 
-# beehub-vue-template
+# vue-front-platform
 
-## beehub-vue-template 介绍
-beehub-vue-template 是一个前端前台解决方案，它基于 vue-admin-element实现，抽离核心依赖@icony/vue-router。它使用了最新的前端技术栈，内置了 i18 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级前端前台解决方案。相信不管你的需求是什么，本项目都能帮助到你
+## vue-front-platform 介绍
+vue-front-platform 是一个前端前台解决方案，它基于 vue-admin-element实现，抽离核心依赖@icony/vue-container。它使用了最新的前端技术栈，内置了 i18 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级前端前台解决方案。相信不管你的需求是什么，本项目都能帮助到你
 
 ```
 ├── build                      # 构建相关
@@ -42,10 +49,10 @@ beehub-vue-template 是一个前端前台解决方案，它基于 vue-admin-elem
 ## 安装
 
 ## 克隆项目
-git clone https://github.com/chenguzhen87/beehub-vue-template.git
+git clone https://github.com/chenguzhen87/vue-front-platform.git
 
 ## 进入项目目录
-cd beehub-vue-template
+cd vue-front-platform
 
 ## 安装依赖
 npm install

@@ -1,3 +1,10 @@
+/*
+ * @Description: 路由入口
+ * @Author: icony/精武陈真
+ * @Date: 2019-06-21 11:18:48
+ * @LastEditTime: 2019-09-11 10:46:02
+ * @LastEditors: icony/精武陈真
+ */
 import Vue from '@icony/vue-container/vue'
 import Router from '@icony/vue-container/vue-router'
 
@@ -58,7 +65,7 @@ export const constantRoutes = [
 ]
 
 const createRouter = () => new Router({
-  // mode: 'history', // require service support
+  mode: 'history', // require service support
   scrollBehavior: () => ({ y: 0 }),
   routes: constantRoutes
 })
